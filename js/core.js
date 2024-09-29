@@ -77,7 +77,7 @@ function clearSearchResults() {
         .then(data => {
             const secondLayer = data[0].children;
             renderNavigation(secondLayer, document.getElementById('navigation'));
-            renderBookmarks(secondLayer, [{ title: 'Bookmark', children: secondLayer }]);
+            renderBookmarks(secondLayer, [{ title: '干货导航', children: secondLayer }]);
             document.getElementById('searchInput').value = '';
             document.getElementById('clearSearchButton').classList.add('hidden');
         })
@@ -378,13 +378,13 @@ fetch('json/pintree.json')
         // Render navigation using the first layer of data
         renderNavigation(firstLayer, document.getElementById('navigation'), true);
         // Render bookmarks using the first layer of data, starting from the Bookmark
-        renderBookmarks(firstLayer, [{ title: 'Bookmark', children: firstLayer }]);
+        renderBookmarks(firstLayer, [{ title: '干货导航', children: firstLayer }]);
 
         // Automatically select and show the first item
         if (firstLayer.length > 0) {
             const firstItem = firstLayer[0];
             updateSidebarActiveState([{ title: firstItem.title, children: firstItem.children }]);
-            renderBookmarks(firstItem.children, [{ title: 'Bookmark', children: firstLayer }, { title: firstItem.title, children: firstItem.children }]);
+            renderBookmarks(firstItem.children, [{ title: '干货导航', children: firstLayer }, { title: firstItem.title, children: firstItem.children }]);
         }
     })
     .catch(error => console.error('Error loading bookmarks:', error));
@@ -444,13 +444,13 @@ document.addEventListener('DOMContentLoaded', () => {
             // Render navigation using the first layer of data
             renderNavigation(firstLayer, document.getElementById('navigation'), true);
             // Render bookmarks using the first layer of data, starting from the Bookmark
-            renderBookmarks(firstLayer, [{ title: 'Bookmark', children: firstLayer }]);
+            renderBookmarks(firstLayer, [{ title: '干货导航', children: firstLayer }]);
 
             // Automatically select and show the first item
             if (firstLayer.length > 0) {
                 const firstItem = firstLayer[0];
                 updateSidebarActiveState([{ title: firstItem.title, children: firstItem.children }]);
-                renderBookmarks(firstItem.children, [{ title: 'Bookmark', children: firstLayer }, { title: firstItem.title, children: firstItem.children }]);
+                renderBookmarks(firstItem.children, [{ title: '干货导航', children: firstLayer }, { title: firstItem.title, children: firstItem.children }]);
             }
         })
         .catch(error => {

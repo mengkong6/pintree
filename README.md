@@ -66,6 +66,18 @@ Pintree 是一个开源项目，旨在将浏览器书签导出成导航网站。
 
 请注意，`main` 分支是项目的源代码分支，而 `gh-pages` 分支是打包出来的静态网站代码分支。请在 `main` 分支上进行开发和提交，然后我们会负责将代码打包并发布到 `gh-pages` 分支。
 
+
+
+如果你想在这个项目基础上继续开发，可以fork这个项目
+
+```
+npm install
+```
+
+```
+npm run dev   
+```
+
 ## 链接格式
 
 ```json
@@ -86,7 +98,7 @@ Pintree 是一个开源项目，旨在将浏览器书签导出成导航网站。
                 "type": "link",
                 "addDate": 1717203935000,
                 "title": "TOPYS",
-                "icon": "https://logo.clearbit.com/www.topys.cn",
+                "icon": "https://favicon.im/www.topys.cn",
                 "url": "https://www.topys.cn/"
             }
         ]
@@ -94,12 +106,3 @@ Pintree 是一个开源项目，旨在将浏览器书签导出成导航网站。
 ]
 
 ```
-
-如果你想在这个项目基础上继续开发，可以fork这个项目
-`
-npm install
-`
-
-`
-npm run dev   
-`
