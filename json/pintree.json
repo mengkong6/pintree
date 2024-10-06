@@ -136,6 +136,13 @@
         "title": "临时邮箱",
         "icon": "https://favicon.im/www.linshi-email.com",
         "url": "https://www.linshi-email.com"
+      },
+      {
+        "type": "link",
+        "addDate": 1717203935000,
+        "title": "茶杯狐(追剧)",
+        "icon": "https://favicon.im/cupfox.love",
+        "url": "https://cupfox.love/"
       }
     ]
   },
@@ -255,6 +262,41 @@
         "title": "B站下载器",
         "icon": "https://favicon.im/blog.somekey.cn",
         "url": "https://blog.somekey.cn/archives/34.html"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "addDate": 1718526865668,
+    "title": "导航推荐",
+    "children": [
+      {
+        "type": "link",
+        "addDate": 1717203935000,
+        "title": "程序员资料库",
+        "icon": "https://favicon.im/coderlibs.com",
+        "url": "https://coderlibs.com/"
+      },
+      {
+        "type": "link",
+        "addDate": 1717203935000,
+        "title": "编程导航",
+        "icon": "https://favicon.im/www.code-nav.cn",
+        "url": "https://www.code-nav.cn/"
+      },
+      {
+        "type": "link",
+        "addDate": 1717203935000,
+        "title": "工具猫",
+        "icon": "https://favicon.im/www.toolmao.com",
+        "url": "https://www.toolmao.com/"
+      },
+      {
+        "type": "link",
+        "addDate": 1717203935000,
+        "title": "学吧导航",
+        "icon": "https://favicon.im/www.xue8nav.com",
+        "url": "https://www.xue8nav.com/"
       }
     ]
   }
