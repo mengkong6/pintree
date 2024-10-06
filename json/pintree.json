@@ -143,6 +143,13 @@
         "title": "茶杯狐(追剧)",
         "icon": "https://favicon.im/cupfox.love",
         "url": "https://cupfox.love/"
+      },
+      {
+        "type": "link",
+        "addDate": 1717203935000,
+        "title": "实用工具",
+        "icon": "https://favicon.im/www.shubang.net",
+        "url": "https://www.shubang.net/tools/"
       }
     ]
   },
