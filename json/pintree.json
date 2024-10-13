@@ -276,6 +276,13 @@
         "title": "熊猫无损音乐",
         "icon": "https://favicon.im/www.xmwav.com",
         "url": "https://www.xmwav.com/"
+      },
+      {
+        "type": "link",
+        "addDate": 1717203935000,
+        "title": "MIUI ROM仓库",
+        "icon": "https://favicon.im/miuiver.com",
+        "url": "https://miuiver.com/"
       }
     ]
   },
