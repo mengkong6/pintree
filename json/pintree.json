@@ -269,6 +269,13 @@
         "title": "B站下载器",
         "icon": "https://favicon.im/blog.somekey.cn",
         "url": "https://blog.somekey.cn/archives/34.html"
+      },
+      {
+        "type": "link",
+        "addDate": 1717203935000,
+        "title": "熊猫无损音乐",
+        "icon": "https://favicon.im/www.xmwav.com",
+        "url": "https://www.xmwav.com/"
       }
     ]
   },
